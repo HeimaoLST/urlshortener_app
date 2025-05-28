@@ -1,14 +1,11 @@
 import './App.css'
-
+import Index from './pages'
+import Header from './widgets/Header'
 function App() {
 
 
   return (
-    <>
-      
-      <h1 className = "text-3xl font-bold underline">UrlShortener</h1>
-
-    </>
+    <Index></Index>
   )
 }
 
